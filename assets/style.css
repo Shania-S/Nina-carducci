@@ -66,6 +66,9 @@ body {
 #services,
 .item-column {
   position: relative;
+
+}
+.item-column {
   cursor: pointer;
 }
 .top-header .name {
