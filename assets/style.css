@@ -1,3 +1,8 @@
+* {
+  font-family: Inter;
+  font-style: normal;
+}
+
 .nav a,
 .nav-pills .nav-link {
   color: #000;
@@ -46,10 +51,7 @@ body {
   max-width: 1920px;
   margin: auto;
 }
-* {
-  font-family: Inter;
-  font-style: normal;
-}
+
 .top-header {
   position: sticky;
   top: 0;
@@ -64,6 +66,7 @@ body {
 #services,
 .item-column {
   position: relative;
+  cursor: pointer;
 }
 .top-header .name {
   font-size: 26px;
@@ -75,6 +78,7 @@ body {
 }
 .nav li {
   padding-inline: 10px;
+  cursor:pointer;
 }
 .nav a {
   text-decoration: none;
@@ -110,6 +114,7 @@ body {
 .about-me__introduction {
   font-weight: 800;
   width: 60%;
+  font-size: 1rem;
 }
 #about-me p {
   width: 80%;
@@ -119,6 +124,18 @@ body {
   text-align: center;
   padding-block: 2em;
 }
+
+#gallery .title, #services .title {
+  font-size: 1.72em;
+}
+
+.service__description .service_title{
+  font-size: 1.7em;
+}
+.service__price .price_title{
+  font-size:1.5em;
+}
+
 .gallery .nav {
   justify-content: center;
 }
@@ -153,6 +170,9 @@ body {
   align-items: center;
   font-size: 24px;
 }
+.form-container h1 {
+  font-size: 1.75em;
+}
 form input,
 form textarea {
   width: 100%;
@@ -167,6 +187,8 @@ form textarea {
 }
 .quote__text {
   font-weight: 300;
+  font-size:2.4em;
+  line-height: 1.2;
 }
 .quote__author {
   font-weight: 800;
@@ -277,6 +299,9 @@ input[type="submit"] {
   .service__description {
     margin-bottom: 1em;
   }
+
+ 
+  
   #services .container::before {
     width: 30%;
     height: 100%;
