@@ -336,6 +336,10 @@ input[type="submit"] {
     padding-block: 1em;
     text-align: center;
   }
+  .top-header .nav li a{
+  font-size: 0.9em;
+
+  }
   .picture.left::before,
   .picture.right::before {
     height: 150px;
@@ -343,6 +347,15 @@ input[type="submit"] {
   #services .container {
     align-items: center;
   }
+  #gallery .title, #services .title {
+    font-size: 1.4em;
+  }
+  .quote__text {
+    font-weight: 300;
+    font-size:1em;
+    line-height: 1.2;
+  }
+
   .service {
     max-width: 90%;
   }
